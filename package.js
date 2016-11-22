@@ -19,7 +19,7 @@ Package.onUse(function(api) {
   api.versionsFrom(['METEOR@0.9.0', 'METEOR@1.0']); // Meteor versions
 
   api.use('angular:angular@1.2.0', where); // Dependencies
-  api.use('digimet:flowjs@2.9.0', where);
+  api.use('digimet:flowjs@2.11.2', where);
 
   api.addFiles('./dist/ng-flow.js', where); // Files in use
 });
